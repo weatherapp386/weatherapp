@@ -1,0 +1,59 @@
+/* Basic styling for the weather app */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/premium-vector/cute-blue-sky-background-with-paper-cut-clouds-3d-sun-rain-drops-garland_363543-520.jpg?semt=ais_hybrid);
+    background-size: cover;
+    background-image: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.weather-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 400px;
+}
+
+h1 {
+    color: #0d97ce;
+
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0d97ce;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d97ce;
+}
+
+#weather-info {
+    margin-top: 40px;
+    color: #333;
+}
+
+#weather-info p {
+    font-size: 16px;
+}
