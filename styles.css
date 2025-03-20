@@ -1,0 +1,61 @@
+/* Basic styling for the weather app */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://assets.onecompiler.app/436mej4wy/43ca6y5hv/DALL%C2%B7E%202025-03-19%2022.42.46%20-%20A%20cute,%20blue%20sky%20background%20with%20fluffy%20white%20clouds%20and%20a%20bright%20sun,%20arranged%20along%20the%20borders%20of%20the%20image,%20leaving%20an%20open%20space%20in%20the%20middle.%20T.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+.weather-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    max-width: 500px;
+    height: auto;
+    min-height: 150px;
+}
+
+h1 {
+    color: #0d97ce;
+}
+
+input {
+    padding: 10px;
+    width: 90%;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0d97ce;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0c85b6;
+}
+
+#weather-info {
+    margin-top: 20px;
+    color: #333;
+}
+
+#weather-info p {
+    font-size: 16px;
+}
